@@ -1,36 +1,46 @@
-body
+/* style for the whole body of the page */
+body {
   font-size: 14px;
 }
-
+/* style navigation section */
 nav {
-  background color: yellow;
+  background-color: yellow;
   height: 100px;
   margin-top: -10px;
   position: fixed;
   width: 100%;
-
-
+}
+/* style section element */
 section {
   margin: 0 auto;
   width: 60%;
 }
 
+/* style h1 headings */
 h1 {
   font-family sans-serif;
   font-size: 2em;
 }
 
+/* style h3 headings and example class*/
 .example, h3 {
   padding-top: 30px;
   text-align center
 }
 
+/* style h3 headings*/
 h3 {
   font-size: 1.3em;
 }
 
+/* style element class */
 .element {
   background-color: green;
   height: 100px;
   margin 10px 0;
   width: 100%;
+}
+/* Change background color of last 3 div */
+.grouped {
+  background-color: blue;
+}
